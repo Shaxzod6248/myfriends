@@ -1,0 +1,146 @@
+body {
+  margin: 0 auto;
+
+  max-width: 1264px;
+  min-width: 1264px;
+  background-color: #f2c140;
+}
+#top {
+  margin-top: 0;
+  padding-top: 30px;
+}
+.frame {
+  margin: 0 auto;
+}
+h1 {
+  text-align: center;
+  font-size: 50px;
+  letter-spacing: 20px;
+  text-transform: uppercase;
+}
+.top {
+  position: relative;
+}
+.fon {
+  width: 100%;
+}
+.rounded {
+  position: absolute;
+  width: 160px;
+  border-radius: 50%;
+  z-index: 10;
+  transition: 1s;
+}
+.rounded:hover {
+  width: 350px;
+  z-index: 100;
+  transition: 2s;
+}
+.jiyan {
+  left: 40px;
+  bottom: 390px;
+}
+.farid {
+  left: 140px;
+  bottom: 200px;
+}
+.me {
+  right: 205px;
+  bottom: 345px;
+}
+.johon {
+  right: 70px;
+  bottom: 170px;
+}
+.farhod {
+  right: 30px;
+  top: 10px;
+}
+.nodir {
+  right: 370px;
+  top: 45px;
+}
+.home2 {
+  left: 290px;
+  top: 55px;
+}
+
+.about {
+  margin-right: 70px;
+  float: left;
+  width: 250px;
+  border-radius: 50%;
+}
+.member {
+  width: 80%;
+  margin: auto;
+  line-height: 20px;
+  overflow: hidden;
+}
+.haqida {
+  width: 250px;
+  border-radius: 50%;
+  float: right;
+}
+.faridhaqida {
+  margin-right: 70px;
+  width: 250px;
+  border-radius: 50%;
+  float: left;
+}
+.johonhaqida {
+  width: 250px;
+  border-radius: 50%;
+  float: right;
+}
+.farhodhaqida {
+  margin-right: 70px;
+  width: 250px;
+  border-radius: 50%;
+  float: left;
+}
+
+.nodirhaqida {
+  width: 250px;
+  border-radius: 50%;
+  float: right;
+}
+
+.home2haqida {
+  margin-right: 70px;
+  width: 250px;
+  border-radius: 50%;
+  float: left;
+}
+.upp {
+  background-color: orange;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 50px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+* {
+  scroll-behavior: smooth;
+}
+.bottom {
+  background-color: #eb9f0e;
+  padding: 40px 0;
+  text-align: center;
+  margin-top: 100px;
+}
+.bottom p {
+  margin-top: 20px;
+  color: wheat;
+}
+.bottom a {
+  margin: auto 20px;
+  color: #422c03;
+}
+hr {
+  border-style: none;
+  border-top: dotted #422c03 10px;
+  width: 100px;
+  margin: 100px auto;
+}
